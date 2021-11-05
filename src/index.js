@@ -1,12 +1,17 @@
-import './index.css';
-import reactDom from 'react-dom';
-import React from 'react';
-import Primeiro from './components/basicos/Primeiro';
-
+import "./index.css";
+import reactDom from "react-dom";
+import React from "react";
+import Primeiro from "./components/basicos/Primeiro";
+import ComParametro from "./components/basicos/ComParametro";
 
 reactDom.render(
-    <div>
-        <Primeiro></Primeiro>
-    </div>,
-    document.getElementById('root')
-)
+  <div id="app">
+    <Primeiro></Primeiro>
+    <ComParametro
+      titulo="Situação do Aluno"
+      aluno="Fabrício Caldana" 
+      nota={9.3}
+    ></ComParametro>
+  </div>,
+  document.getElementById("root")
+);
