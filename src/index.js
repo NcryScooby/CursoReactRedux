@@ -1,4 +1,4 @@
-import './index.css'
+import './index.css';
 import reactDom from 'react-dom';
 import React from 'react';
 import Primeiro from './components/basicos/Primeiro';
