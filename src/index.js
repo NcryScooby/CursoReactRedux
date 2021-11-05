@@ -1,5 +1,7 @@
+import './index.css'
 import reactDom from 'react-dom';
 import React from 'react';
+
 
 const tag = <strong>Olá, React!</strong>
 
