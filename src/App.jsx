@@ -23,7 +23,6 @@ export default () => (
         <ParOuImpar numero={20}/>
         <UsuarioInfo usuario={{nome: 'Fabrício'}}/>
         <UsuarioInfo usuario={{email: 'fa@gmail.com'}}/>
-        <UsuarioInfo />
       </Card>
 
       <Card titulo="#07 - Exercício - Produtos" color="#E8B71A">
