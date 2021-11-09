@@ -15,25 +15,29 @@ import Primeiro from "./components/basicos/Primeiro";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
-
+import Input from "./components/formulario/Input";
 
 export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
 
     <div className="Cards">
-    <Card titulo="#10 - Comunicação Indireta" color="#8BAD39">
+      <Card titulo="#11 - Componente Controlado" color="#E94C6F">
+        <Input/>
+      </Card>
+
+      <Card titulo="#10 - Comunicação Indireta" color="#8BAD39">
         <IndiretaPai />
       </Card>
 
-    <Card titulo="#09 - Comunicação Direta" color="#588C73">
+      <Card titulo="#09 - Comunicação Direta" color="#588C73">
         <DiretaPai />
       </Card>
 
       <Card titulo="#08 - Renderização Condicional" color="#982395">
-        <ParOuImpar numero={20}/>
-        <UsuarioInfo usuario={{nome: 'Fabrício'}}/>
-        <UsuarioInfo usuario={{email: 'fa@gmail.com'}}/>
+        <ParOuImpar numero={20} />
+        <UsuarioInfo usuario={{ nome: "Fabrício" }} />
+        <UsuarioInfo usuario={{ email: "fa@gmail.com" }} />
       </Card>
 
       <Card titulo="#07 - Exercício - Produtos" color="#E8B71A">
