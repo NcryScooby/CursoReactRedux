@@ -3,6 +3,7 @@ import React from "react";
 
 import Card from "./components/layout/Card";
 
+import Contador from "./components/contador/Contador";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
@@ -22,6 +23,10 @@ export default () => (
     <h1>Fundamentos React</h1>
 
     <div className="Cards">
+    <Card titulo="#12 - Contador" color="#FA6900">
+        <Contador numeroInicial={0}/>
+      </Card>
+
       <Card titulo="#11 - Componente Controlado" color="#E94C6F">
         <Input/>
       </Card>
