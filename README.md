@@ -2,7 +2,7 @@ Para Criar um Projeto React é necessário usar o comando: npx create-react-app 
 
 JSX = Sintaxe que compila JavaScript em HTML. Consegue misturar HTML com JavaScript, mas não é HTML. para usar um arquivo JSX é necessário importar o React.
 
-Componentes sempre tem a primeira letra maiúscula. Componentes são refêrenciados como tag. .
+Componentes sempre tem a primeira letra maiúscula. Componentes são refêrenciados como tag.
 
 Componentes funcionais -> Componentes baseados em funções.
 
@@ -19,3 +19,5 @@ Com a palavra default, podemos exportar uma função anônima -> Função sem no
 Para fazer a comunicação entre o componente Pai e o componente filho, você precisa importar o filho dentro do componente Pai.
 
 Um dos hooks do react é o useState.
+
+Estado muda -> Componente visual muda.
