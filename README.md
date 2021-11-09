@@ -21,3 +21,5 @@ Para fazer a comunicação entre o componente Pai e o componente filho, você pr
 Um dos hooks do react é o useState.
 
 Estado muda -> Componente visual muda.
+
+Preferível trabalhar com componentes baseados em funções, pois possuí síntaxe mais próxima do JavaScript.
