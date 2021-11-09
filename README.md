@@ -17,3 +17,5 @@ Quando tem muitas tags juntas, precisamos envelopar ela com alguma tag. <> </> o
 Com a palavra default, podemos exportar uma função anônima -> Função sem nome.
 
 Para fazer a comunicação entre o componente Pai e o componente filho, você precisa importar o filho dentro do componente Pai.
+
+Um dos hooks do react é o useState.
