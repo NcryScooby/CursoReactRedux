@@ -10,7 +10,7 @@ Componentes funcionais -> Componentes baseados em funções.
 
 props -> Propriedades, são somente leitura.
 
-Estado do componente -> state, altera o valor dinamicamente.
+state -> Estado do componente, altera o valor dinamicamente.
 
 Quando tem muitas tags juntas, precisamos envelopar ela com alguma tag. <> </> ou <React.Fragment> </React.Fragment> -> Para usar algum atributo a mais use o fragment. <React.Fragment sobrenome="Caldana"> </React.Fragment>.
 
