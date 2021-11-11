@@ -6,7 +6,7 @@ Componentes sempre tem a primeira letra maiúscula. Componentes são refêrencia
 
 Componentes funcionais -> Componentes baseados em funções.
 
-.jsx não muda nada no React em sí, mas ajuda a IDE é entender que é um arquivo JSX.
+.jsx não muda nada no React em sí, mas ajuda a IDE entender que é um arquivo JSX.
 
 props -> Propriedades, são somente leitura.
 
