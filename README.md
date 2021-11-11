@@ -1,5 +1,5 @@
-### Para Criar um Projeto React é necessário usar o comando: npx create-react-app nome-do-app.
-
+Para Criar um Projeto React é necessário usar o comando: npx create-react-app nome-do-app.
+###
 JSX = Sintaxe que compila JavaScript em HTML. Consegue misturar HTML com JavaScript, mas não é HTML. para usar um arquivo JSX é necessário importar o React.
 
 Componentes sempre tem a primeira letra maiúscula. Componentes são refêrenciados como tag.
