@@ -17,18 +17,23 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
+import Mega from "./components/mega/Mega";
 
 export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
 
     <div className="Cards">
-    <Card titulo="#12 - Contador" color="#FA6900">
-        <Contador numeroInicial={0}/>
+      <Card titulo="#13 - Desafio Mega-Sena" color="#588C73">
+        <Mega qtde={8}/>
+      </Card>
+
+      <Card titulo="#12 - Contador" color="#FA6900">
+        <Contador numeroInicial={0} />
       </Card>
 
       <Card titulo="#11 - Componente Controlado" color="#E94C6F">
-        <Input/>
+        <Input />
       </Card>
 
       <Card titulo="#10 - Comunicação Indireta" color="#8BAD39">
